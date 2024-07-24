@@ -14,8 +14,8 @@ const perguntas = [
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "",
+                afirmacao: "A desigualdade social é mais frequente em países subdesenvolvidos devido a má distribuição de renda."
             }
         ]
     },
@@ -63,4 +63,23 @@ function mostraPergunta() {
     mostraAlternativas();
 }
 
-function mostraAlternativas(){
+function mostraAlternativas(){<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Você decide o futuro da IA</title>
+    </head>
+    <body>
+        <div class="caixa-principal">
+            <h1>Você decide o futuro da IA</h1>
+            <div class="caixa-perguntas"></div>
+            <div class="caixa-alternativas"></div>
+            <div class="caixa-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
